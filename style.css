@@ -12,6 +12,70 @@ body{
 
 }
 
+.contactos{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+input{
+    background-color: white;
+    width: 70%;
+    margin-left: 12%;
+    font-size: 20px;
+    padding: 16px 16px;
+    border-radius: 10px;
+    border-color: green;
+    margin-bottom: 20px;
+}
+
+textarea{
+    background-color: white;
+    width: 70%;
+    margin-left: 12%;
+    font-size: 20px;
+    padding: 16px 16px;
+    border-radius: 20px;
+    border-color: green;
+    margin-bottom: 25px;
+    border-width: 2px;
+    font-family: "Poppins", sans-serif;
+    resize: none;
+}
+
+input:focus-within{
+    outline: none;
+    border-color: #abcc26;
+    border-width: 3px;
+}
+
+textarea:focus-within{
+    outline: none;
+    border-color: #abcc26;
+    border-width: 3px;
+}
+
+button{
+    background-color: #abcc26;
+    color: #fff;
+    border-radius: 20px;
+    border-color: green;
+    border-width: 0px;
+    font-size: 22px;
+    padding: 10px 18px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    margin-bottom: 37px;
+}
+
+button:hover{
+    opacity: 80%;
+    cursor: pointer;
+    background-color: #fd8505;
+}
+
 a, a:hover{
     text-decoration: none;
     color: #fff;
@@ -121,7 +185,6 @@ marquee{
     text-align: center;
     background-color: #abcc26;
     margin-top: auto;
-    bottom: 0;
     width: 100%;
 }
 
