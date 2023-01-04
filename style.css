@@ -8,6 +8,9 @@
 
 body{
     font-family: "Poppins", sans-serif;
+    background-image: url("images/background.png");
+    text-align: center;
+    justify-content: center;
 }
 
 a, a:hover{
@@ -81,4 +84,62 @@ nav a:hover{
 
 marquee{
     color: white;
+}
+
+.top-arrow {
+    background: white;
+    position: fixed;
+    bottom: 16px;
+    right:32px;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:32px;
+    color:#abcc26;
+    text-decoration: none;
+    opacity:0;
+    pointer-events: none;
+    transition: all .4s;
+  }
+  
+  .top-arrow.active {
+    bottom:32px;
+    pointer-events: auto;
+    opacity:1;
+  }
+
+.footer{
+    text-align: center;
+    background-color: #abcc26;
+    margin-top: auto;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer .menu2 li {
+    display: inline-block;
+    margin: 0 1em 1em 0;
+}
+
+.footer img{
+    width: 140px;
+}
+
+.footer p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.footer a{
+    color: white;
+    font-weight: bold;
+}
+
+.footer a:hover{
+    color: #fd8505;
 }
