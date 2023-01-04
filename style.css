@@ -9,8 +9,7 @@
 body{
     font-family: "Poppins", sans-serif;
     background-image: url("images/background.png");
-    text-align: center;
-    justify-content: center;
+
 }
 
 a, a:hover{
@@ -23,6 +22,13 @@ nav{
     padding: 5px 20px;
     display: flex;
     align-items: center;
+}
+
+p{
+    text-align: center;
+    justify-content: center;
+    margin-left: 75px;
+    margin-right: 75px;
 }
 
 nav a:hover{
