@@ -78,8 +78,10 @@
         <script>
             function sendEmail(){
                 Email.send({
-                    SecureToken : "0a8c8efa-af36-4d5b-bc88-60f8b4ef99f8",
-                    To : "g5trabalhoti@gmail.com",
+                    Host: "smtp.gmail.com",
+                    Username: "g5trabalhoti@gmail.com",
+                    Password: "Trabalhoti123*",
+                    To : "joaopedrooliveira6704@gmail.com",
                     From : "g5trabalhoti@gmail.com",
                     Subject : document.getElementById("assunto"),
                     Body : "Nome: " + document.getElementById("nome").value
