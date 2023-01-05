@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<Zoo>
+
+    <!-- Bilhetes -->
+
+    <Bilhete>
+        <Tipo> Adulto </Tipo>
+        <Idade> 
+            <Idade_Min> 16 </Idade_Min>
+            <Idade_Max> 64 </Idade_Max>
+        </Idade>
+        <Preco>
+            <Total> 19.99 </Total>
+            <Unidade_Monetaria> € </Unidade_Monetaria> 
+        </Preco>
+    </Bilhete>
+
+    <Bilhete>
+        <Tipo> Criança </Tipo>
+        <Idade> 
+            <Idade_Min> 3 </Idade_Min>
+            <Idade_Max> 15 </Idade_Max>
+        </Idade>
+        <Preco>
+            <Total> 10.99 </Total>
+            <Unidade_Monetaria> € </Unidade_Monetaria> 
+        </Preco>
+    </Bilhete>
+
+    <Bilhete>
+        <Tipo> Sénior </Tipo>
+        <Idade> 
+            <Idade_Min> 65 </Idade_Min>
+        </Idade>
+        <Preco>
+            <Total> 15.99 </Total>
+            <Unidade_Monetaria> € </Unidade_Monetaria> 
+        </Preco>
+    </Bilhete>
+
+    <!-- Animais -->
+
+    <Animal>
+        <Especie> Tigre </Especie>
+        <Subespecie> Tigre-Siberiano </Subespecie>
+        <Nome_Cientifico> Panthera tigris tigris </Nome_Cientifico>
+        <Subclasse> Mamífero </Subclasse>
+        <Num_Animais> 4 </Num_Animais>
+        <Longevidade>
+            <de> 8 </de>
+            <ate> 10 </ate>
+        </Longevidade>
+        <Habitat> Florestas de coníferas, também conhecidas como taiga. </Habitat>
+        <Alimentacao> A sua alimentação consiste de alces, javalis, renas e cervos. Em casos raros, chegam a caçar ursos-pardos. </Alimentacao>
+        <Media_Peso>
+            <Total> 255 </Total>
+            <Unidade_Massa> Kg </Unidade_Massa> 
+        </Media_Peso>
+        <Descricao>  </Descricao>
+        <Curiosidades>  </Curiosidades>
+    </Animal>
+
+</Zoo>
