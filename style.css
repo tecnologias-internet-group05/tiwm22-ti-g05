@@ -148,6 +148,19 @@ nav a:hover{
     }
 }
 
+.msgsucesso{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 60px;
+}
+
+.psucesso{
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 218px;
+    font-size: 20px;
+}
+
 .isactive{
     color: greenyellow;
 }
