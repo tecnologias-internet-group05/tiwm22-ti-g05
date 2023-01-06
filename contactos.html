@@ -41,7 +41,7 @@
             <i class="fas fa-chevron-up"></i>
         </a>
         <div class="form">
-            <form onsubmit="sendEmail(); reset(); return false;">
+            <form method="POST" action="enviar_form.php">
                 <h1 class="contactos">Contactos</h1>
                 <input type="text" id ="nome" name="nome" placeholder="Primeiro e Último Nome" required>
                 <input type="email" id="email" name="email" placeholder="Endereço de Email" required>
@@ -74,24 +74,6 @@
                     }
                 });
             });
-        </script>
-        <script>
-            function sendEmail(){
-                Email.send({
-                    Host: "smtp-relay.sendinblue.com",
-                    Username: "joaopedrooliveira6704@gmail.com",
-                    Password: "9FcNtmKZQbC0IHd5",
-                    To : "joaopedrooliveira6704@gmail.com",
-                    From : "joaopedrooliveira6704@gmail.com",
-                    Subject : document.getElementById("assunto"),
-                    Body : "Nome: " + document.getElementById("nome").value
-                    + "<br> Email: " + document.getElementById("email").value
-                    + "<br> Assunto: " + document.getElementById("assunto").value
-                    + "<br> Mensagem: " + document.getElementById("mensagem").value
-                }).then(
-                message => alert("Mensagem Enviada com Sucesso!")
-                );
-            }
         </script>
         <script src="main.js"></script>
     </body>
