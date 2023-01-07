@@ -53,12 +53,126 @@
         </Longevidade>
         <Habitat> Florestas de coníferas, também conhecidas como taiga. </Habitat>
         <Alimentacao> A sua alimentação consiste de alces, javalis, renas e cervos. Em casos raros, chegam a caçar ursos-pardos. </Alimentacao>
-        <Media_Peso>
-            <Total> 255 </Total>
-            <Unidade_Massa> Kg </Unidade_Massa> 
-        </Media_Peso>
-        <Descricao>  </Descricao>
-        <Curiosidades>  </Curiosidades>
+        <Peso>
+            <macho>
+                <de> 200 </de>
+                <ate> 310 </ate>
+                <Unidade_Massa> Kg </Unidade_Massa> 
+            </macho>
+            <femea>
+                <de> 120 </de>
+                <ate> 170 </ate>
+                <Unidade_Massa> Kg </Unidade_Massa> 
+            </femea>
+        </Peso>
+        <Descricao> É a população de tigre mais setentrional e a maior de todas. Habita áreas próximas ao Rio Amur na Sibéria no extremo leste da Rússia, e uma pequena área no nordeste da China. Classificado como um Superpredador é o 5° maior mamífero carnívoro terrestre estando depois do Leão-Africano, Tigre-de-bengala, Urso-pardo e do Urso-polar. </Descricao>
     </Animal>
 
+    <Animal>
+        <Especie> Elefante </Especie>
+        <Subespecie> Elefante-Africano </Subespecie>
+        <Nome_Cientifico> Loxodonta africana </Nome_Cientifico>
+        <Subclasse> Mamífero </Subclasse>
+        <Num_Animais> 3 </Num_Animais>
+        <Longevidade>
+            <de> 60 </de>
+            <ate> 70 </ate>
+        </Longevidade>
+        <Habitat> Savanas, florestas, desertos e pântanos. </Habitat>
+        <Alimentacao> Os elefantes são animais herbívoros, alimentando-se de ervas, frutas e folhas de árvores. </Alimentacao>
+        <Peso>
+            <macho>
+                <de> 4000 </de>
+                <ate> 6000 </ate>
+                <Unidade_Massa> Kg </Unidade_Massa> 
+            </macho>
+            <femea>
+                <de> 2000 </de>
+                <ate> 3000 </ate>
+                <Unidade_Massa> Kg </Unidade_Massa> 
+            </femea>
+        </Peso>
+        <Descricao> É a população de tigre mais setentrional e a maior de todas. Habita áreas próximas ao Rio Amur na Sibéria no extremo leste da Rússia, e uma pequena área no nordeste da China. Classificado como um Superpredador é o 5° maior mamífero carnívoro terrestre estando depois do Leão-Africano, Tigre-de-bengala, Urso-pardo e do Urso-polar. </Descricao>
+    </Animal>
+
+    <Animal>
+        <Especie> Urso </Especie>
+        <Subespecie> Urso-Europeu </Subespecie>
+        <Nome_Cientifico> Ursus arctos arctos </Nome_Cientifico>
+        <Subclasse> Mamífero </Subclasse>
+        <Num_Animais> 1 </Num_Animais>
+        <Longevidade>
+            <de> 25 </de>
+            <ate> 30 </ate>
+        </Longevidade>
+        <Habitat> Seu habitat inclui a vegetação alpina, floresta temperada e a floresta de coníferas ou taiga (no norte da Europa, montanhas e outras áreas). </Habitat>
+        <Alimentacao> O urso-europeu alimenta-se de carne e vegetais. Pode caçar cabritos-monteses, camurças, coelhos selvagens, lebres e veados, mas alimenta-se também de pequenas frutas que encontra em arbustos na floresta, mel e insetos. </Alimentacao>
+        <Peso>
+            <macho>
+                <de> 260 </de>
+                <ate> 360 </ate>
+                <Unidade_Massa> Kg </Unidade_Massa> 
+            </macho>
+            <femea>
+                <de> 150 </de>
+                <ate> 250 </ate>
+                <Unidade_Massa> Kg </Unidade_Massa> 
+            </femea>
+        </Peso>
+        <Descricao> É a população de tigre mais setentrional e a maior de todas. Habita áreas próximas ao Rio Amur na Sibéria no extremo leste da Rússia, e uma pequena área no nordeste da China. Classificado como um Superpredador é o 5° maior mamífero carnívoro terrestre estando depois do Leão-Africano, Tigre-de-bengala, Urso-pardo e do Urso-polar. </Descricao>
+    </Animal>
+
+    <Animal>
+        <Especie> Gorila </Especie>
+        <Subespecie> Gorila-do-Ocidente </Subespecie>
+        <Nome_Cientifico> Gorilla gorilla </Nome_Cientifico>
+        <Subclasse> Mamífero </Subclasse>
+        <Num_Animais> 3 </Num_Animais>
+        <Longevidade>
+            <de> 35 </de>
+            <ate> 45 </ate>
+        </Longevidade>
+        <Habitat> Os gorilas-do-ocidente moram em florestas densas e pântanos das terras baixas e marisma até ao nível do mar. </Habitat>
+        <Alimentacao> A sua dieta alimentar é, em grande parte, herbívora, uma vez que alimentam-se de frutas, folhas, brotos, mas também os insetos compõem menos de 2% do seu cardápio. </Alimentacao>
+        <Peso>
+            <macho>
+                <de> 140 </de>
+                <ate> 230 </ate>
+                <Unidade_Massa> Kg </Unidade_Massa> 
+            </macho>
+            <femea>
+                <de> 70 </de>
+                <ate> 110 </ate>
+                <Unidade_Massa> Kg </Unidade_Massa> 
+            </femea>
+        </Peso>
+        <Descricao> É a população de tigre mais setentrional e a maior de todas. Habita áreas próximas ao Rio Amur na Sibéria no extremo leste da Rússia, e uma pequena área no nordeste da China. Classificado como um Superpredador é o 5° maior mamífero carnívoro terrestre estando depois do Leão-Africano, Tigre-de-bengala, Urso-pardo e do Urso-polar. </Descricao>
+    </Animal>
+
+    <Animal>
+        <Especie> Cobra </Especie>
+        <Subespecie> Mamba-Negra </Subespecie>
+        <Nome_Cientifico> Dendroaspis polylepis </Nome_Cientifico>
+        <Subclasse> Reptile </Subclasse>
+        <Num_Animais> 2 </Num_Animais>
+        <Longevidade>
+            <de> 8 </de>
+            <ate> 11 </ate>
+        </Longevidade>
+        <Habitat> A mamba-negra é mais comumente encontrada em savanas semiáridas bem arborizadas ou florestas ribeirinhas, especialmente em áreas com abundância de colinas rochosas e árvores grandes. Também pode ser encontrada na mata costeira, savana úmida e seca e florestas de planície. </Habitat>
+        <Alimentacao> Alimenta-se principalmente de pequenos vertebrados, como aves, e pequenos mamíferos como roedores, morcegos, hiracoides e galagos. </Alimentacao>
+        <Peso>
+            <macho>
+                <de> 1,03 </de>
+                <ate> 2,4 </ate>
+                <Unidade_Massa> Kg </Unidade_Massa> 
+            </macho>
+            <femea>
+                <de> 1,03 </de>
+                <ate> 2,4 </ate>
+                <Unidade_Massa> Kg </Unidade_Massa> 
+            </femea>
+        </Peso>
+        <Descricao> É a população de tigre mais setentrional e a maior de todas. Habita áreas próximas ao Rio Amur na Sibéria no extremo leste da Rússia, e uma pequena área no nordeste da China. Classificado como um Superpredador é o 5° maior mamífero carnívoro terrestre estando depois do Leão-Africano, Tigre-de-bengala, Urso-pardo e do Urso-polar. </Descricao>
+    </Animal>
 </Zoo>
