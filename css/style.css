@@ -8,8 +8,8 @@
 
 body{
     font-family: "Poppins", sans-serif;
-    background-image: url("images/background.png");
-
+    background-image: url("/imagens/background.png");
+    min-height: 100vh;
 }
 
 .contactos{
@@ -21,7 +21,7 @@ body{
 
 input{
     background-color: white;
-    width: 70%;
+    width: 75%;
     margin-left: 12%;
     font-size: 20px;
     padding: 16px 16px;
@@ -32,13 +32,13 @@ input{
 
 textarea{
     background-color: white;
-    width: 70%;
+    width: 75%;
     margin-left: 12%;
+    margin-right: 12%;
     font-size: 20px;
     padding: 16px 16px;
     border-radius: 20px;
     border-color: green;
-    margin-bottom: 25px;
     border-width: 2px;
     font-family: "Poppins", sans-serif;
     resize: none;
@@ -67,6 +67,7 @@ button{
     text-align: center;
     display: flex;
     margin: auto;
+    margin-top: 30px;
     margin-bottom: 37px;
 }
 
@@ -186,24 +187,30 @@ marquee{
     opacity:0;
     pointer-events: none;
     transition: all .4s;
-  }
+}
   
-  .top-arrow.active {
+.top-arrow.active {
     bottom:32px;
     pointer-events: auto;
     opacity:1;
-  }
+}
 
 .footer{
     text-align: center;
     background-color: #abcc26;
-    margin-top: auto;
-    width: 100%;
+    margin-top: 35px;
+    padding: 3em;
+    grid-column: 1 / -1;
+    position: sticky;
 }
 
 .footer .menu2 li {
     display: inline-block;
-    margin: 0 1em 1em 0;
+    margin: 1em 1em 1em 1em;
+}
+
+.footer ul{
+    justify-content: center;
 }
 
 .footer img{
@@ -220,6 +227,7 @@ marquee{
 .footer a{
     color: white;
     font-weight: bold;
+    text-align: center;
 }
 
 .footer a:hover{

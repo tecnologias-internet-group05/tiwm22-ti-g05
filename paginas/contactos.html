@@ -8,10 +8,10 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>ZooParadise - Contactos</title>
-        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+        <link rel="icon" type="image/x-icon" href="/imagens/favicon.ico">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="/css/style.css">
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>  
         <script src="https://kit.fontawesome.com/a54d2cbf95.js"></script>
@@ -23,23 +23,25 @@
         <![endif]-->
         <nav>
             <div class="logo">
-                <a href="index.html"><img src="images/zoologo.svg" alt="logo"></a>
+                <a href="/paginas/index.html"><img src="/imagens/zoologo.svg" alt="logo"></a>
             </div>
             <div class="toggle">
                 <a href="#"><ion-icon name="menu-outline"></ion-icon></a>
             </div>
             <ul class="menu">
-                <li><a href="index.html">Início</a></li>
-                <li><a href="animais.html">Animais</a></li>
-                <li><a href="marcacoes.html">Marcações</a></li>
-                <li><a href="sobre.html">Sobre Nós</a></li>
-                <li><a href="contactos.html" class="isactive">Contactos</a></li>
+                <li><a href="/paginas/index.html">Início</a></li>
+                <li><a href="/paginas/animais.html">Animais</a></li>
+                <li><a href="/paginas/marcacoes.html">Marcações</a></li>
+                <li><a href="/paginas/sobre.html">Sobre Nós</a></li>
+                <li><a href="/paginas/contactos.html" class="isactive">Contactos</a></li>
             </ul>
         </nav>
         <marquee bgcolor="yellowgreen" direction="left">NOVIDADE! DESCONTOS ATÉ 20% EM TODOS OS BILHETES!</marquee>
-        <a href="#" class="top-arrow">
-            <i class="fas fa-chevron-up"></i>
-        </a>
+        <div name="arrow">
+            <a href="#" class="top-arrow">
+                <i class="fas fa-chevron-up"></i>
+            </a>
+        </div>
         <div class="form">
             <form name="contactos" method="POST" data-netlify="true" onSubmit="submit" action="/sucesso.html">
                 <h1 class="contactos">Contactos</h1>
@@ -52,13 +54,13 @@
         </div>
         <div class="container">
             <footer class="footer">
-                <a href="#" class="brand"><img src="images/zoologo.svg" alt="logo"></a>
+                <a href="/paginas/index.html" class="brand"><img src="/imagens/zoologo.svg" alt="logo"></a>
                 <ul class="menu2">
-                    <li><a href="index.html">Início</a></li>
-                    <li><a href="animais.html">Animais</a></li>
-                    <li><a href="marcacoes.html">Marcações</a></li>
-                    <li><a href="sobre.html">Sobre Nós</a></li>
-                    <li><a href="contactos.html">Contactos</a></li>
+                    <li><a href="/paginas/index.html">Início</a></li>
+                    <li><a href="/paginas/animais.html">Animais</a></li>
+                    <li><a href="/paginas/marcacoes.html">Marcações</a></li>
+                    <li><a href="/paginas/sobre.html">Sobre Nós</a></li>
+                    <li><a href="/paginas/contactos.html">Contactos</a></li>
                 </ul>
             </footer>        
         </div>
@@ -75,6 +77,6 @@
                 });
             });
         </script>
-        <script src="main.js"></script>
+        <script src="/js/main.js"></script>
     </body>
 </html>
