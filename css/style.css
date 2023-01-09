@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+::selection{
+    background-color: #fd8505;
+    color: white;
+}
+
 body{
     font-family: "Poppins", sans-serif;
     background-image: url("/imagens/background.png");
