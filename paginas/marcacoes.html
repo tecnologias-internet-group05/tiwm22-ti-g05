@@ -38,44 +38,127 @@
         <a href="#" class="top-arrow">
             <i class="fas fa-chevron-up"></i>
         </a>
+
         <table>
             <tr>
-                <td>Idades</td>
-                <td>
-                    3 - 15
-                </td>
-                <td>
-                    16 - 64
-                </td>
-                <td>
-                    65+
-                </td>
+                <td> Bilhete </td>
+                <td> <span id="A_Bilhete"></span> </td>
+                <td> <span id="C_Bilhete"></span> </td>
+                <td> <span id="S_Bilhete"></span> </td>
             </tr>
             <tr>
-                <td>Dias Úteis</td>
-                <td>
-                    10,99€
-                </td>
-                <td>
-                    19,99€
-                </td>
-                <td>
-                    15,99€
-                </td>
+                <td> Idades </td>
+                <td> De <span id="A_Min"></span> a <span id="A_Max"></span> anos. </td>
+                <td> De <span id="C_Min"></span> a <span id="C_Max"></span> anos. </td>
+                <td> Acima de <span id="S_Min"></span> anos. </td>
             </tr>
             <tr>
-                <td>Fim de Semana</td>
-                <td>
-                    7,99€
-                </td>
-                <td>
-                    15,99€
-                </td>
-                <td>
-                    12,99€
-                </td>
+                <td> Preço Dias Úteis </td>
+                <td> <span id="A_Preco"></span><span id="A_Unidade"></span> </td>
+                <td> <span id="C_Preco"></span><span id="C_Unidade"></span> </td>
+                <td> <span id="S_Preco"></span><span id="S_Unidade"></span> </td>
+            </tr>
+            <tr>
+                <td> Preço Fim-de-Semana </td>
+                <td> <span id="A_PrecoF"></span><span id="A_UnidadeF"></span> </td>
+                <td> <span id="C_PrecoF"></span><span id="C_UnidadeF"></span> </td>
+                <td> <span id="S_PrecoF"></span><span id="S_UnidadeF"></span> </td>
             </tr>
         </table>
+
+        <script>
+            var parser, xmlDoc;
+            txt = "<Zoo><Bilhete>" +
+                  "<Tipo> Adulto </Tipo>" +
+                  "<Idade>" +
+                  "<Idade_Min> 16 </Idade_Min>" +
+                  "<Idade_Max> 64 </Idade_Max>" +
+                  "</Idade>" +
+                  "<Preco><Semana>" +
+                  "<Total> 19.99 </Total>" +
+                  "</Semana><Fim_Semana>" +
+                  "<Total> 15.99 </Total>" +
+                  "</Fim_Semana>" +
+                  "<Unidade_Monetaria> € </Unidade_Monetaria>" +
+                  "</Preco></Bilhete>" +
+                  "<Bilhete>" +
+                  "<Tipo> Criança </Tipo>" +
+                  "<Idade>" +
+                  "<Idade_Min> 3 </Idade_Min>" +
+                  "<Idade_Max> 15 </Idade_Max>" +
+                  "</Idade>" +
+                  "<Preco><Semana>" +
+                  "<Total> 10.99 </Total>" +
+                  "</Semana><Fim_Semana>" +
+                  "<Total> 7.99 </Total>" +
+                  "</Fim_Semana>" +
+                  "<Unidade_Monetaria> € </Unidade_Monetaria>" +
+                  "</Preco>" +
+                  "</Bilhete>" +
+                  "<Bilhete>" +
+                  "<Tipo> Sénior </Tipo>" +
+                  "<Idade>" +
+                  "<Idade_Min> 65 </Idade_Min>" +
+                  "</Idade>" +
+                  "<Preco><Semana>" +
+                  "<Total> 15.99 </Total>" +
+                  "</Semana><Fim_Semana>" +
+                  "<Total> 12.99 </Total>" +
+                  "</Fim_Semana>" +
+                  "<Unidade_Monetaria> € </Unidade_Monetaria>" +
+                  "</Preco>" +
+                  "</Bilhete></Zoo>";
+            
+            parser = new DOMParser();
+            xmlDoc = parser.parseFromString(txt,"text/xml");
+            
+            // Adulto
+            document.getElementById("A_Bilhete").innerHTML =
+            xmlDoc.getElementsByTagName("Tipo")[0].childNodes[0].nodeValue;
+            document.getElementById("A_Min").innerHTML =
+            xmlDoc.getElementsByTagName("Idade_Min")[0].childNodes[0].nodeValue;
+            document.getElementById("A_Max").innerHTML =
+            xmlDoc.getElementsByTagName("Idade_Max")[0].childNodes[0].nodeValue;
+            document.getElementById("A_Preco").innerHTML =
+            xmlDoc.getElementsByTagName("Total")[0].childNodes[0].nodeValue;
+            document.getElementById("A_PrecoF").innerHTML =
+            xmlDoc.getElementsByTagName("Total")[1].childNodes[0].nodeValue;
+            document.getElementById("A_Unidade").innerHTML =
+            xmlDoc.getElementsByTagName("Unidade_Monetaria")[0].childNodes[0].nodeValue;
+            document.getElementById("A_UnidadeF").innerHTML =
+            xmlDoc.getElementsByTagName("Unidade_Monetaria")[0].childNodes[0].nodeValue;
+            
+            // Criança
+            document.getElementById("C_Bilhete").innerHTML =
+            xmlDoc.getElementsByTagName("Tipo")[1].childNodes[0].nodeValue;
+            document.getElementById("C_Min").innerHTML =
+            xmlDoc.getElementsByTagName("Idade_Min")[1].childNodes[0].nodeValue;
+            document.getElementById("C_Max").innerHTML =
+            xmlDoc.getElementsByTagName("Idade_Max")[1].childNodes[0].nodeValue;
+            document.getElementById("C_Preco").innerHTML =
+            xmlDoc.getElementsByTagName("Total")[2].childNodes[0].nodeValue;
+            document.getElementById("C_PrecoF").innerHTML =
+            xmlDoc.getElementsByTagName("Total")[3].childNodes[0].nodeValue;
+            document.getElementById("C_Unidade").innerHTML =
+            xmlDoc.getElementsByTagName("Unidade_Monetaria")[0].childNodes[0].nodeValue;
+            document.getElementById("C_UnidadeF").innerHTML =
+            xmlDoc.getElementsByTagName("Unidade_Monetaria")[0].childNodes[0].nodeValue;
+            
+            // Sénior
+            document.getElementById("S_Bilhete").innerHTML =
+            xmlDoc.getElementsByTagName("Tipo")[2].childNodes[0].nodeValue;
+            document.getElementById("S_Min").innerHTML =
+            xmlDoc.getElementsByTagName("Idade_Min")[2].childNodes[0].nodeValue;
+            document.getElementById("S_Preco").innerHTML =
+            xmlDoc.getElementsByTagName("Total")[4].childNodes[0].nodeValue;
+            document.getElementById("S_PrecoF").innerHTML =
+            xmlDoc.getElementsByTagName("Total")[5].childNodes[0].nodeValue;
+            document.getElementById("S_Unidade").innerHTML =
+            xmlDoc.getElementsByTagName("Unidade_Monetaria")[2].childNodes[0].nodeValue;
+            document.getElementById("S_UnidadeF").innerHTML =
+            xmlDoc.getElementsByTagName("Unidade_Monetaria")[2].childNodes[0].nodeValue;
+            </script>
+            
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis beatae culpa numquam quibusdam quae illo iure consectetur odit tempore velit, delectus saepe. Excepturi, dolorum reiciendis! Error at quae maxime ratione.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis beatae culpa numquam quibusdam quae illo iure consectetur odit tempore velit, delectus saepe. Excepturi, dolorum reiciendis! Error at quae maxime ratione.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis beatae culpa numquam quibusdam quae illo iure consectetur odit tempore velit, delectus saepe. Excepturi, dolorum reiciendis! Error at quae maxime ratione.</p>
