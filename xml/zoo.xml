@@ -1,6 +1,8 @@
-<?xml version="1.0" encoding="iso-8859-1" ?>
+<?xml version="1.0"?>
 
-<Zoo>
+<Zoo xmlns="https://www.w3schools.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="https://www.w3schools.com zoo.xsd">
 
     <!-- Bilhetes -->
 
@@ -163,13 +165,13 @@
         <Alimentacao> Alimenta-se principalmente de pequenos vertebrados, como aves, e pequenos mamíferos como roedores, morcegos, hiracoides e galagos. </Alimentacao>
         <Peso>
             <macho>
-                <de> 1,03 </de>
-                <ate> 2,4 </ate>
+                <de> 1.03 </de>
+                <ate> 2.4 </ate>
                 <Unidade_Massa> Kg </Unidade_Massa> 
             </macho>
             <femea>
-                <de> 1,03 </de>
-                <ate> 2,4 </ate>
+                <de> 1.03 </de>
+                <ate> 2.4 </ate>
                 <Unidade_Massa> Kg </Unidade_Massa> 
             </femea>
         </Peso>
