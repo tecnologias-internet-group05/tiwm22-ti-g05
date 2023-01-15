@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="https://www.w3schools.com"
+    xmlns:tns="https://www.w3schools.com"
+    elementFormDefault="qualified">
+
+    <element name="Zoo">
+        <complexType>
+            <sequence>
+                <element name="Bilhete" maxOccurs="unbounded">
+                    <complexType>
+                        <sequence>
+                            <element name="Tipo" type="string"></element>
+                            <element name="Idade">
+                                <complexType>
+                                    <sequence>
+                                        <element name="Idade_Min" type="integer"/>
+                                        <element name="Idade_Max" type="integer" minOccurs="0" />
+                                    </sequence>
+                                </complexType>
+                            </element>
+                            <element name="Preco">
+                                <complexType>
+                                    <sequence>
+                                        <element name="Total" type="decimal"/>
+                                        <element name="Unidade_Monetaria" type="string"/>
+                                    </sequence>
+                                </complexType>
+                            </element>
+                        </sequence>
+                    </complexType>
+                </element>
+                <element name="Animal" maxOccurs="unbounded">
+                    <complexType>
+                        <sequence>
+                            <element name="Especie" type="string"/>
+                            <element name="Subespecie" type="string"/>
+                            <element name="Nome_Cientifico" type="string"/>
+                            <element name="Subclasse" type="string"/>
+                            <element name="Num_Animais" type="integer"/>
+                            <element name="Longevidade">
+                                <complexType>
+                                    <sequence>
+                                        <element name="de" type="integer"/>
+                                        <element name="ate" type="integer"/>
+                                    </sequence>
+                                </complexType>
+                            </element>
+                            <element name="Habitat" type="string"/>
+                            <element name="Alimentacao" type="string"/>
+                            <element name="Peso">
+                                <complexType>
+                                    <sequence>
+                                        <element name="macho">
+                                            <complexType>
+                                                <sequence>
+                                                    <element name="de" type="decimal"/>
+                                                    <element name="ate" type="decimal"/>
+                                                    <element name="Unidade_Massa" type="string"/>
+                                                </sequence>
+                                            </complexType>
+                                        </element>
+                                        <element name="femea">
+                                            <complexType>
+                                                <sequence>
+                                                    <element name="de" type="decimal"/>
+                                                    <element name="ate" type="decimal"/>
+                                                    <element name="Unidade_Massa" type="string"/>
+                                                </sequence>
+                                            </complexType>
+                                        </element>
+                                    </sequence>
+                                </complexType>
+                            </element>
+                            <element name="Descricao" type="string"/>
+                        </sequence>
+                    </complexType>
+                </element>
+            </sequence>
+        </complexType>
+    </element>
+ </schema>
