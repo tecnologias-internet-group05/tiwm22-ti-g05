@@ -38,7 +38,41 @@
         <a href="#" class="top-arrow">
             <i class="fas fa-chevron-up"></i>
         </a>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis beatae culpa numquam quibusdam quae illo iure consectetur odit tempore velit, delectus saepe. Excepturi, dolorum reiciendis! Error at quae maxime ratione.</p>
+        
+        <b>Bilhete:</b> <span id="demo"></span><br>
+        <b>Entre:</b> <span id="demo1"></span> e <span id="demo2"></span> anos.<br>
+        <b>Preço:</b> <span id="demo3"></span><span id="demo4"></span><br>
+
+        <script>
+            var parser, xmlDoc;
+            txt1 = "<Zoo><Bilhete>";
+            txt2 = "<Tipo> Adulto </Tipo>";
+            txt3 = "<Idade>";
+            txt4 = "<Idade_Min> 16 </Idade_Min>";
+            txt5 = "<Idade_Max> 64 </Idade_Max>";
+            txt6 = "</Idade>";
+            txt7 = "<Preco>";
+            txt8 = "<Total> 19.99 </Total>";
+            txt9 = "<Unidade_Monetaria> € </Unidade_Monetaria>";
+            txt10 = "</Preco>";
+            txt11 = "</Bilhete></Zoo>";
+            txt = txt1 + txt2 + txt3 + txt4 + txt5 + txt6 + txt7 + txt8 + txt9 + txt10 + txt11
+
+            parser = new DOMParser();
+            xmlDoc = parser.parseFromString(txt,"text/xml");
+
+            document.getElementById("demo").innerHTML =
+            xmlDoc.getElementsByTagName("Tipo")[0].childNodes[0].nodeValue;
+            document.getElementById("demo1").innerHTML =
+            xmlDoc.getElementsByTagName("Idade_Min")[0].childNodes[0].nodeValue;
+            document.getElementById("demo2").innerHTML =
+            xmlDoc.getElementsByTagName("Idade_Max")[0].childNodes[0].nodeValue;
+            document.getElementById("demo3").innerHTML =
+            xmlDoc.getElementsByTagName("Total")[0].childNodes[0].nodeValue;
+            document.getElementById("demo4").innerHTML =
+            xmlDoc.getElementsByTagName("Unidade_Monetaria")[0].childNodes[0].nodeValue;
+        </script>
+
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis beatae culpa numquam quibusdam quae illo iure consectetur odit tempore velit, delectus saepe. Excepturi, dolorum reiciendis! Error at quae maxime ratione.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis beatae culpa numquam quibusdam quae illo iure consectetur odit tempore velit, delectus saepe. Excepturi, dolorum reiciendis! Error at quae maxime ratione.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis beatae culpa numquam quibusdam quae illo iure consectetur odit tempore velit, delectus saepe. Excepturi, dolorum reiciendis! Error at quae maxime ratione.</p>
