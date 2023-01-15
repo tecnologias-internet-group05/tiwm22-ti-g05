@@ -22,13 +22,33 @@
                             <element name="Preco">
                                 <complexType>
                                     <sequence>
-                                        <element name="Total">
-                                            <simpleType>
-                                                <restriction base='decimal'>
-                                                    <fractionDigits value='2'/>
-                                                    <minInclusive value='0.01'/>
-                                                </restriction>
-                                            </simpleType>
+                                        <element name="Semana">
+                                            <complexType>
+                                                <sequence>
+                                                    <element name="Total">
+                                                        <simpleType>
+                                                            <restriction base='decimal'>
+                                                                <fractionDigits value='2'/>
+                                                                <minInclusive value='0.01'/>
+                                                            </restriction>
+                                                        </simpleType>
+                                                    </element>
+                                                </sequence>
+                                            </complexType>
+                                        </element>
+                                        <element name="Fim_Semana">
+                                            <complexType>
+                                                <sequence>
+                                                    <element name="Total">
+                                                        <simpleType>
+                                                            <restriction base='decimal'>
+                                                                <fractionDigits value='2'/>
+                                                                <minInclusive value='0.01'/>
+                                                            </restriction>
+                                                        </simpleType>
+                                                    </element>
+                                                </sequence>
+                                            </complexType>
                                         </element>
                                         <element name="Unidade_Monetaria" type="string"/>
                                     </sequence>

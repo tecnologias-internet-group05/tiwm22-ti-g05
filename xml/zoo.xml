@@ -6,81 +6,55 @@ xsi:schemaLocation="https://www.w3schools.com zoo.xsd">
 
     <!-- Bilhetes -->
 
-    <Precos_Semana>
-        <Bilhete>
-            <Tipo> Adulto </Tipo>
-            <Idade> 
-                <Idade_Min> 16 </Idade_Min>
-                <Idade_Max> 64 </Idade_Max>
-            </Idade>
-            <Preco>
+    <Bilhete>
+        <Tipo> Adulto </Tipo>
+        <Idade> 
+            <Idade_Min> 16 </Idade_Min>
+            <Idade_Max> 64 </Idade_Max>
+        </Idade>
+        <Preco>
+            <Semana>
                 <Total> 19.99 </Total>
-                <Unidade_Monetaria> € </Unidade_Monetaria> 
-            </Preco>
-        </Bilhete>
+            </Semana>
+            <Fim_Semana>
+                <Total> 15.99 </Total>
+            </Fim_Semana>
+            <Unidade_Monetaria> € </Unidade_Monetaria> 
+        </Preco>
+    </Bilhete>
 
-        <Bilhete>
-            <Tipo> Criança </Tipo>
-            <Idade> 
-                <Idade_Min> 3 </Idade_Min>
-                <Idade_Max> 15 </Idade_Max>
-            </Idade>
-            <Preco>
+    <Bilhete>
+        <Tipo> Criança </Tipo>
+        <Idade> 
+            <Idade_Min> 3 </Idade_Min>
+            <Idade_Max> 15 </Idade_Max>
+        </Idade>
+        <Preco>
+            <Semana>
                 <Total> 10.99 </Total>
-                <Unidade_Monetaria> € </Unidade_Monetaria> 
-            </Preco>
-        </Bilhete>
-
-        <Bilhete>
-            <Tipo> Sénior </Tipo>
-            <Idade> 
-                <Idade_Min> 65 </Idade_Min>
-            </Idade>
-            <Preco>
-                <Total> 15.99 </Total>
-                <Unidade_Monetaria> € </Unidade_Monetaria> 
-            </Preco>
-        </Bilhete>
-    </Precos_Semana>
-    
-    <Precos_Fim_de_Semana>
-
-        <Bilhete>
-            <Tipo> Adulto </Tipo>
-            <Idade> 
-                <Idade_Min> 16 </Idade_Min>
-                <Idade_Max> 64 </Idade_Max>
-            </Idade>
-            <Preco>
-                <Total> 15.99 </Total>
-                <Unidade_Monetaria> € </Unidade_Monetaria> 
-            </Preco>
-        </Bilhete>
-
-        <Bilhete>
-            <Tipo> Criança </Tipo>
-            <Idade> 
-                <Idade_Min> 3 </Idade_Min>
-                <Idade_Max> 15 </Idade_Max>
-            </Idade>
-            <Preco>
+            </Semana>
+            <Fim_Semana>
                 <Total> 7.99 </Total>
-                <Unidade_Monetaria> € </Unidade_Monetaria> 
-            </Preco>
-        </Bilhete>
+            </Fim_Semana>
+            <Unidade_Monetaria> € </Unidade_Monetaria> 
+        </Preco>
+    </Bilhete>
 
-        <Bilhete>
-            <Tipo> Sénior </Tipo>
-            <Idade> 
-                <Idade_Min> 65 </Idade_Min>
-            </Idade>
-            <Preco>
+    <Bilhete>
+        <Tipo> Sénior </Tipo>
+        <Idade> 
+            <Idade_Min> 65 </Idade_Min>
+        </Idade>
+        <Preco>
+            <Semana>
+                <Total> 15.99 </Total>
+            </Semana>
+            <Fim_Semana>
                 <Total> 12.99 </Total>
-                <Unidade_Monetaria> € </Unidade_Monetaria> 
-            </Preco>
-        </Bilhete>
-
-    </Precos_Fim_de_Semana>
+            </Fim_Semana>
+            <Unidade_Monetaria> € </Unidade_Monetaria> 
+        </Preco>
+    </Bilhete>
 
     <!-- Animais -->
 
