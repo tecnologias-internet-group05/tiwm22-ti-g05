@@ -14,15 +14,22 @@
                             <element name="Idade">
                                 <complexType>
                                     <sequence>
-                                        <element name="Idade_Min" type="integer"/>
-                                        <element name="Idade_Max" type="integer" minOccurs="0" />
+                                        <element name="Idade_Min"/>
+                                        <element name="Idade_Max" type="integer" minOccurs="0"/>
                                     </sequence>
                                 </complexType>
                             </element>
                             <element name="Preco">
                                 <complexType>
                                     <sequence>
-                                        <element name="Total" type="decimal"/>
+                                        <element name="Total">
+                                            <simpleType>
+                                                <restriction base='decimal'>
+                                                    <fractionDigits value='2'/>
+                                                    <minInclusive value='0.01'/>
+                                                </restriction>
+                                            </simpleType>
+                                        </element>
                                         <element name="Unidade_Monetaria" type="string"/>
                                     </sequence>
                                 </complexType>
@@ -54,8 +61,22 @@
                                         <element name="macho">
                                             <complexType>
                                                 <sequence>
-                                                    <element name="de" type="decimal"/>
-                                                    <element name="ate" type="decimal"/>
+                                                    <element name="de">
+                                                        <simpleType>
+                                                            <restriction base='decimal'>
+                                                                <fractionDigits value='2'/>
+                                                                <minInclusive value='0.01'/>
+                                                            </restriction>
+                                                        </simpleType>
+                                                    </element>
+                                                    <element name="ate">
+                                                        <simpleType>
+                                                            <restriction base='decimal'>
+                                                                <fractionDigits value='2'/>
+                                                                <minInclusive value='0.01'/>
+                                                            </restriction>
+                                                        </simpleType>
+                                                    </element>
                                                     <element name="Unidade_Massa" type="string"/>
                                                 </sequence>
                                             </complexType>
@@ -63,8 +84,22 @@
                                         <element name="femea">
                                             <complexType>
                                                 <sequence>
-                                                    <element name="de" type="decimal"/>
-                                                    <element name="ate" type="decimal"/>
+                                                    <element name="de">
+                                                        <simpleType>
+                                                            <restriction base='decimal'>
+                                                                <fractionDigits value='2'/>
+                                                                <minInclusive value='0.01'/>
+                                                            </restriction>
+                                                        </simpleType>
+                                                    </element>
+                                                    <element name="ate">
+                                                        <simpleType>
+                                                            <restriction base='decimal'>
+                                                                <fractionDigits value='2'/>
+                                                                <minInclusive value='0.01'/>
+                                                            </restriction>
+                                                        </simpleType>
+                                                    </element>
                                                     <element name="Unidade_Massa" type="string"/>
                                                 </sequence>
                                             </complexType>
