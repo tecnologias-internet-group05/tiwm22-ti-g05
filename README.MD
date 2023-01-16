@@ -57,8 +57,25 @@ O footer é composto pelos mesmos elementos que o menu do topo, sendo estes:
 
 # 2 - Interface com o utilizador
 
+## Interface da página **Início**
+![title](imagens/index.png)
 
+## Interface da pagina **Animais**
+![title](imagens/animais.png)
 
+## Interface da página **Marcações**
+![title](imagens/marcacoes.png)
+
+## Interface da página **Sobre**
+![title](imagens/sobre1.png)
+![title](imagens/sobre2.png)
+
+## Interface da página **Contactos**
+![title](imagens/contactos1.png)
+![title](imagens/contactos2.png)
+
+## Interface da página **Sucesso**
+![title](imagens/sucesso.png)
 
 # 3 - Produto
 
