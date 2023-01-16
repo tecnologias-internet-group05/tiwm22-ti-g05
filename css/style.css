@@ -257,3 +257,14 @@ table {
     padding: 1px;
     text-align: left;
 }
+
+.prices {
+    border: 2px solid green;
+    background: white;
+    border-radius: 25;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+}
+.align{
+    text-align:center;
+}
