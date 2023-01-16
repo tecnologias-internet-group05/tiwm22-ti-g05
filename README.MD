@@ -2,7 +2,10 @@
 
 Grupo de trabalho: 05
 
-Elementos: - João Oliveira | A043242; - Miguel Silva | A043718; - Diogo Fernandes | A039679;
+Elementos: 
+- João Oliveira | A043242; 
+- Miguel Silva | A043718; 
+- Diogo Fernandes | A039679;
 
 O trabalho proposto, dentro do tema "Animais", é uma página que permite dar a conhecer ao utilizador um zoo.
 
