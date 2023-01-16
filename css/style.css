@@ -318,3 +318,9 @@ table {
   
 .dropdown:hover .dropbtn {background-color: #abcc26;}
 
+.midmap{
+    margin-left: auto;
+    margin-right: auto;
+    width: min-content;
+    height: min-content;
+}
