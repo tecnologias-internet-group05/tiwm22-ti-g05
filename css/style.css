@@ -17,6 +17,15 @@ body{
     min-height: 100vh;
 }
 
+.paragrafo{
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+
+    font-family: "Poppins", sans-serif;
+    display: block;
+}
+
 .contactos{
     padding-top: 10px;
     text-align: center;
