@@ -334,3 +334,66 @@ table {
 .contactosobre:hover{
     color: #fd8505;
 }
+
+.redes{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon{
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    background: #fff;
+    margin: 20px;
+    text-align: center;
+    font-size: 50px;
+    line-height: 85px;
+    font-family: sans-serif;
+    overflow: hidden;
+    box-shadow: 5px 10px 20px rgba(150, 150, 150, .3);
+    transition: all .3s ease-out;
+}
+.icon:hover{
+    width: 400px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.icon:hover i{
+    color: #fff;
+}
+.icon .fa-facebook-f{
+    color: #fd8505;
+}
+.fb:hover{
+    background: #abcc26;
+}
+.icon .fa-twitter{
+    color: #abcc26;
+}
+.twt:hover{
+    background: #fd8505;
+}
+.icon .fa-github{
+    color: #abcc26;
+}
+.git:hover{
+    background: #fd8505;
+}
+.yt{
+    color: #abcc26;
+}
+.yt:hover{
+    background: #abcc26;
+}
+
+/* responsive */
+@media only screen and (min-width: 320px) and (max-width: 991px) {
+    .main{
+        flex-direction: column;
+    }
+}
