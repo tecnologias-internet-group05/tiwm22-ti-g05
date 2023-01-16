@@ -324,3 +324,14 @@ table {
     width: min-content;
     height: min-content;
 }
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  
+  .texto {
+    font-size: 20px;
+    padding-left: 20px;
+  }
