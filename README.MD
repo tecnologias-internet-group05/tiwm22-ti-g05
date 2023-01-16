@@ -52,8 +52,8 @@ O footer é composto pelos mesmos elementos que o menu do topo, sendo estes:
 - Sobre Nós; 
 - Contactos.
 
-
-
+## Sucesso
+Após a validação do formulário, o utilizado é levado para uma página onde é informado do sucesso do envio da mensagem.
 
 # 2 - Interface com o utilizador
 
@@ -62,6 +62,8 @@ O footer é composto pelos mesmos elementos que o menu do topo, sendo estes:
 
 ## Interface da pagina **Animais**
 ![title](imagens/animais.png)
+![title](imagens/animais2.png)
+![title](imagens/animais3.png)
 
 ## Interface da página **Marcações**
 ![title](imagens/marcacoes.png)
