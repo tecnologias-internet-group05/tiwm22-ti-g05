@@ -325,7 +325,7 @@ table {
     height: min-content;
 }
 
-.smart-button-container, p{
+.smart-button-container{
     font-weight: bold;
 }
 
