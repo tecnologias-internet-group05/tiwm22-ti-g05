@@ -265,6 +265,55 @@ table {
     border-top: 2px solid black;
     border-left: 2px solid black;
 }
+
 .align{
     text-align:center;
 }
+
+.animalsize{
+    width: 100%;
+    height: auto;
+}
+
+.centerimg{
+
+    width: 50%;
+    height: min-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dropbtn {
+    background-color: #fd8505;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+  }
+  
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #abcc26;}
