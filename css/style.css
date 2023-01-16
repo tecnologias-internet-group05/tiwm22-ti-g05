@@ -397,3 +397,8 @@ table {
         flex-direction: column;
     }
 }
+
+.divbutton {
+    display: flex;
+    justify-content: space-between;
+}
