@@ -69,7 +69,7 @@ xsi:schemaLocation="https://www.w3schools.com zoo.xsd">
             <ate> 10 </ate>
         </Longevidade>
         <Habitat> Florestas de coníferas, também conhecidas como taiga. </Habitat>
-        <Alimentacao> A sua alimentação consiste de alces, javalis, renas e cervos. Em casos raros, chegam a caçar ursos-pardos. </Alimentacao>
+        <Alimentacao> Alces, javalis, renas e cervos. Em casos raros, chegam a caçar ursos-pardos. </Alimentacao>
         <Peso>
             <macho>
                 <de> 200 </de>
@@ -96,7 +96,7 @@ xsi:schemaLocation="https://www.w3schools.com zoo.xsd">
             <ate> 70 </ate>
         </Longevidade>
         <Habitat> Savanas, florestas, desertos e pântanos. </Habitat>
-        <Alimentacao> Os elefantes são animais herbívoros, alimentando-se de ervas, frutas e folhas de árvores. </Alimentacao>
+        <Alimentacao> Ervas, frutas e folhas de árvores. </Alimentacao>
         <Peso>
             <macho>
                 <de> 4000 </de>
@@ -122,8 +122,8 @@ xsi:schemaLocation="https://www.w3schools.com zoo.xsd">
             <de> 25 </de>
             <ate> 30 </ate>
         </Longevidade>
-        <Habitat> Seu habitat inclui a vegetação alpina, floresta temperada e a floresta de coníferas ou taiga (no norte da Europa, montanhas e outras áreas). </Habitat>
-        <Alimentacao> O urso-europeu alimenta-se de carne e vegetais. Pode caçar cabritos-monteses, camurças, coelhos selvagens, lebres e veados, mas alimenta-se também de pequenas frutas que encontra em arbustos na floresta, mel e insetos. </Alimentacao>
+        <Habitat> Vegetação alpina, floresta temperada e a floresta de coníferas ou taiga. </Habitat>
+        <Alimentacao> Cabritos-monteses, camurças, coelhos selvagens, lebres e veados, frutas, mel e insetos. </Alimentacao>
         <Peso>
             <macho>
                 <de> 260 </de>
@@ -149,8 +149,8 @@ xsi:schemaLocation="https://www.w3schools.com zoo.xsd">
             <de> 35 </de>
             <ate> 45 </ate>
         </Longevidade>
-        <Habitat> Os gorilas-do-ocidente moram em florestas densas e pântanos das terras baixas e marisma até ao nível do mar. </Habitat>
-        <Alimentacao> A sua dieta alimentar é, em grande parte, herbívora, uma vez que alimentam-se de frutas, folhas, brotos, mas também os insetos compõem menos de 2% do seu cardápio. </Alimentacao>
+        <Habitat> Florestas densas e pântanos. </Habitat>
+        <Alimentacao> Frutas, folhas, brotos e insetos. </Alimentacao>
         <Peso>
             <macho>
                 <de> 140 </de>
@@ -176,8 +176,8 @@ xsi:schemaLocation="https://www.w3schools.com zoo.xsd">
             <de> 8 </de>
             <ate> 11 </ate>
         </Longevidade>
-        <Habitat> A mamba-negra é mais comumente encontrada em savanas semiáridas bem arborizadas ou florestas ribeirinhas, especialmente em áreas com abundância de colinas rochosas e árvores grandes. Também pode ser encontrada na mata costeira, savana úmida e seca e florestas de planície. </Habitat>
-        <Alimentacao> Alimenta-se principalmente de pequenos vertebrados, como aves, e pequenos mamíferos como roedores, morcegos, hiracoides e galagos. </Alimentacao>
+        <Habitat> Savanas semiáridas ou úmidas, florestas de planície ou ribeirinhas e mata costeira </Habitat>
+        <Alimentacao> Aves, roedores, morcegos, hiracoides e galagos. </Alimentacao>
         <Peso>
             <macho>
                 <de> 1.03 </de>
