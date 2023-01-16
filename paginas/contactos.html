@@ -15,6 +15,7 @@
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>  
         <script src="https://kit.fontawesome.com/a54d2cbf95.js"></script>
+        <script src="https://kit.fontawesome.com/b356ad9dc8.js" crossorigin="anonymous"></script>
         <script src="https://smtpjs.com/v3/smtp.js"></script>
     </head>
     <body>
@@ -45,13 +46,45 @@
         <br>
         <div class="form">
             <form name="contactos" method="POST" data-netlify="true" onSubmit="submit" action="/paginas/sucesso.html">
-                <h1 class="contactos">Contactos</h1>
+                <h1 class="contactos">Contacte-nos</h1>
                 <input type="text" id ="nome" name="nome" placeholder="Primeiro e Último Nome" required>
                 <input type="email" id="email" name="email" placeholder="Endereço de Email" required>
                 <input type="text" id="assunto" name="assunto" placeholder="Assunto" required>
                 <textarea rows="5" cols="60" id="mensagem" name="mensagem" placeholder="Introduzir mensagem" required></textarea>
                 <button type="submit">Enviar Mensagem</button>
             </form>
+        </div>
+        <div class="align">
+            <h1>Contactos:</h1>
+            <br>
+            <ol>
+                <li><h2>Telefone:</h2></li>
+                <li><a class="contactosobre" href="tel:227567123">227567123</a></li>
+                <br>
+                <li><h2>E-mail:</h2></li>
+                <li><a class="contactosobre" href="mailto:geral@zooparadise.com">geral@zooparadise.com</a></li>
+                <br>
+                <li><h2>Redes sociais:</h2></li>
+                <div class="redes">
+                    <!-- Facebook Icon -->
+                    <div class="icon fb">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <span>Facebook</span>
+                    </div>
+            
+                    <!-- Twitter Icon -->
+                    <div class="icon twt">
+                        <i class="fa-brands fa-twitter"></i>
+                        <span>Twitter</span>
+                    </div>
+                    
+                    <!-- Instagram Icon-->
+                    <div class="icon ist">
+                        <i class="fa-brands fa-instagram"></i>
+                        <span>Instagram</span>
+                    </div>
+                </div>
+            </ol>
         </div>
         <div class="container">
             <footer class="footer">
