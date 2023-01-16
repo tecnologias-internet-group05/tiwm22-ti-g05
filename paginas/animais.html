@@ -52,13 +52,13 @@
         </div>
         
         <!-- Elefante -->
-        <p><h2 id="A1" class="align">Elefante</h2></p>
+        <p><h1 id="A1" class="align">Elefante</h1></p>
         <br>
         <div class="centerimg"><img class="animalsize" src="../imagens/Animais/Elefante.jpeg"></div>
         <p>
-        <b>Espécie:</b> <span id="Elefante"></span><br>
-        <b>Subespécie:</b> <span id="Elefante_Africano"></span><br>
-        <b>Nome Científico:</b> <span id="Laxodonta_africana"></span><br>
+        <b>Espécie:</b> <span id="Especie_Elefante"></span><br>
+        <b>Subespécie:</b> <span id="Subespecie_Elefante"></span><br>
+        <b>Nome Científico:</b> <span id="Nome_Elefante"></span><br>
         <b>Subclasse:</b> <span id="Subclasse_Elefante"></span><br><!--duvidas neste-->
         <b>Nº Animais no nosso Zoo:</b> <span id="N_Elefante"></span></span><br>
         <b>Longevidade:</b> <span id="Min_Elefante"></span> a <span id="Max_Elefante"></span> anos.<br>
@@ -71,7 +71,7 @@
 
 
         <!-- Mamba-Negra -->
-        <p><h2 id="A3" class="align">Mamba-negra</h2></p>
+        <p><h1 id="A3" class="align">Mamba-negra</h1></p>
         <br>
         <div class="centerimg"><img class="animalsize" src="../imagens/Animais/Mamba Negra.jpg"></div>
         <p>
@@ -205,6 +205,40 @@
         parser = new DOMParser();
         xmlDoc = parser.parseFromString(txt,"text/xml");
         
+        // Elefante
+        document.getElementById("Especie_Elefante").innerHTML =
+        xmlDoc.getElementsByTagName("Especie")[1].childNodes[0].nodeValue;
+        document.getElementById("Subespecie_Elefante").innerHTML =
+        xmlDoc.getElementsByTagName("Subespecie")[1].childNodes[0].nodeValue;
+        document.getElementById("Nome_Elefante").innerHTML =
+        xmlDoc.getElementsByTagName("Nome_Cientifico")[1].childNodes[0].nodeValue;
+        document.getElementById("Subclasse_Elefante").innerHTML =
+        xmlDoc.getElementsByTagName("Subclasse")[1].childNodes[0].nodeValue;
+        document.getElementById("N_Elefante").innerHTML =
+        xmlDoc.getElementsByTagName("Num_Animais")[1].childNodes[0].nodeValue;
+        document.getElementById("Min_Elefante").innerHTML =
+        xmlDoc.getElementsByTagName("de")[3].childNodes[0].nodeValue;
+        document.getElementById("Max_Elefante").innerHTML =
+        xmlDoc.getElementsByTagName("ate")[3].childNodes[0].nodeValue;
+        document.getElementById("Habitat_Elefante").innerHTML =
+        xmlDoc.getElementsByTagName("Habitat")[1].childNodes[0].nodeValue;
+        document.getElementById("Alimentacao_Elefante").innerHTML =
+        xmlDoc.getElementsByTagName("Alimentacao")[1].childNodes[0].nodeValue;
+        document.getElementById("Min_PesoM_Elefante").innerHTML =
+        xmlDoc.getElementsByTagName("de")[4].childNodes[0].nodeValue;
+        document.getElementById("Max_PesoM_Elefante").innerHTML =
+        xmlDoc.getElementsByTagName("ate")[4].childNodes[0].nodeValue;
+        document.getElementById("UnidadeM_Elefante").innerHTML =
+        xmlDoc.getElementsByTagName("Unidade_Massa")[1].childNodes[0].nodeValue;
+        document.getElementById("Min_PesoF_Elefante").innerHTML =
+        xmlDoc.getElementsByTagName("de")[5].childNodes[0].nodeValue;
+        document.getElementById("Max_PesoF_Elefante").innerHTML =
+        xmlDoc.getElementsByTagName("ate")[5].childNodes[0].nodeValue;
+        document.getElementById("UnidadeF_Elefante").innerHTML =
+        xmlDoc.getElementsByTagName("Unidade_Massa")[1].childNodes[0].nodeValue;
+        document.getElementById("Descricao_Elefante").innerHTML =
+        xmlDoc.getElementsByTagName("Descricao")[1].childNodes[0].nodeValue;
+
         // Mamba_Negra
         document.getElementById("Especie_Mamba").innerHTML =
         xmlDoc.getElementsByTagName("Especie")[4].childNodes[0].nodeValue;
@@ -239,50 +273,6 @@
         document.getElementById("Descricao_Mamba").innerHTML =
         xmlDoc.getElementsByTagName("Descricao")[4].childNodes[0].nodeValue;
         
-
-
-
-
-        //Elefante-----------------------------------------------------------------------------------------------------------------------------------
-        document.getElementById("Especie_Elefante").innerHTML =
-        xmlDoc.getElementsByTagName("Especie")[4].childNodes[0].nodeValue;
-        document.getElementById("Subespecie_Elefante").innerHTML =
-        xmlDoc.getElementsByTagName("Subespecie")[4].childNodes[0].nodeValue;
-        document.getElementById("Nome_Elefante").innerHTML =
-        xmlDoc.getElementsByTagName("Nome_Cientifico")[4].childNodes[0].nodeValue;
-        document.getElementById("Subclasse_Elefante").innerHTML =
-        xmlDoc.getElementsByTagName("Subclasse")[4].childNodes[0].nodeValue;
-        document.getElementById("N_Elefante").innerHTML =
-        xmlDoc.getElementsByTagName("Num_Animais")[4].childNodes[0].nodeValue;
-        document.getElementById("Min_Elefante").innerHTML =
-        xmlDoc.getElementsByTagName("de")[12].childNodes[0].nodeValue;
-        document.getElementById("Max_Elefante").innerHTML =
-        xmlDoc.getElementsByTagName("ate")[12].childNodes[0].nodeValue;
-        document.getElementById("Habitat_Elefante").innerHTML =
-        xmlDoc.getElementsByTagName("Habitat")[4].childNodes[0].nodeValue;
-        document.getElementById("Alimentacao_Elefante").innerHTML =
-        xmlDoc.getElementsByTagName("Alimentacao")[4].childNodes[0].nodeValue;
-        document.getElementById("Min_PesoM_Elefante").innerHTML =
-        xmlDoc.getElementsByTagName("de")[13].childNodes[0].nodeValue;
-        document.getElementById("Max_PesoM_Elefante").innerHTML =
-        xmlDoc.getElementsByTagName("ate")[13].childNodes[0].nodeValue;
-        document.getElementById("UnidadeM_Elefante").innerHTML =
-        xmlDoc.getElementsByTagName("Unidade_Massa")[4].childNodes[0].nodeValue;
-        document.getElementById("Min_PesoF_Elefante").innerHTML =
-        xmlDoc.getElementsByTagName("de")[14].childNodes[0].nodeValue;
-        document.getElementById("Max_PesoF_Elefante").innerHTML =
-        xmlDoc.getElementsByTagName("ate")[14].childNodes[0].nodeValue;
-        document.getElementById("UnidadeF_Elefante").innerHTML =
-        xmlDoc.getElementsByTagName("Unidade_Massa")[4].childNodes[0].nodeValue;
-        document.getElementById("Descricao_Elefante").innerHTML =
-        xmlDoc.getElementsByTagName("Descricao")[4].childNodes[0].nodeValue;
-
-
-
-
-
-        
-
         
         </script>
 
