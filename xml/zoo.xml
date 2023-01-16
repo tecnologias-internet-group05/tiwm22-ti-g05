@@ -176,7 +176,7 @@ xsi:schemaLocation="https://www.w3schools.com zoo.xsd">
             <de> 8 </de>
             <ate> 11 </ate>
         </Longevidade>
-        <Habitat> Savanas semiáridas ou úmidas, florestas de planície ou ribeirinhas e mata costeira </Habitat>
+        <Habitat> Savanas semiáridas ou úmidas, florestas de planície ou ribeirinhas e mata costeira. </Habitat>
         <Alimentacao> Aves, roedores, morcegos, hiracoides e galagos. </Alimentacao>
         <Peso>
             <macho>
