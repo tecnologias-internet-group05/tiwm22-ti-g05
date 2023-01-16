@@ -271,8 +271,8 @@ table {
 }
 
 .animalsize{
-    width: 25%;
-    height: 25%;
+    width: 100%;
+    height: auto;
 }
 
 .centerimg{
@@ -324,15 +324,3 @@ table {
     width: min-content;
     height: min-content;
 }
-
-.container {
-    display: grid;
-    align-items: center; 
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 5px;
-  }
-  
-  .texto {
-    font-size: 20px;
-    padding-left: 20px;
-  }
