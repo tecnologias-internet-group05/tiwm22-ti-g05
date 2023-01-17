@@ -93,7 +93,38 @@ de alguma duvida o utilizador pode enviar uma mensagem através da página conta
 ## Ligação para o site
 https://tiwm22-ti-g05.netlify.app/paginas/
 
-## Instruções de instalação e configuração -
+## Instruções de instalação e configuração
+
+### Github
+No github deve ser criado um repositório.
+
+Para fazer a instalação localmente é necessário utilizar o comando "**Git Clone**", que faz uma cópia de um repositório existente numa nova localização.
+
+A ferramenta que pode ser utilizada para editar o código e puxar diretamente para o repositório chama-se "**Github Desktop**".
+
+### Netlify
+Primeiro devemos ir ao website do netlify em https://netlify.app/
+
+Depois devemos criar uma conta gratuita.
+
+Após a criação da conta vamos ter acesso a um dashboard onde devemos ter a opção "**Add new site**"
+Depois de clicar-mos em "**Add new site**" vamos ter um menu com estas opções
+![title](imagens/passo1.png)
+
+Devemos clicar em "**Import an existing project**"
+
+Vamos ser redirecionados para esta página, onde devemos clicar em **GitHub**
+![title](imagens/passo2.png)
+
+Vai ser aberta uma página onde podemos escolher o repositório que vamos usar.
+![title](imagens/passo3.png)
+
+Se não existir nenhum passamos a clicar em "**Configure Netlify on Github**""
+
+Isto vai abrir uma nova página. Nela devemos escolher em qual repositório queremos instalar o **Netlify**.
+![title](imagens/passo4.png)
+
+Após isto, o netlify está pronto para ser usado!
 
 ## Regras de utilização
 Não existem regras de utilização.
