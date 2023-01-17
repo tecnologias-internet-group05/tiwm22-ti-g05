@@ -57,6 +57,9 @@ Após a validação do formulário, o utilizado é levado para uma página onde 
 
 # 2 - Interface com o utilizador
 
+## Sitemap
+![title](imagens/sitemap.png)
+
 ## Interface da página **Início**
 ![title](imagens/index.png)
 
@@ -111,10 +114,32 @@ O formulário está na página contactos. Para a validação do mesmo recorremos
 O formulário envia uma mensagem com os campos introduzidos pelo utilizador.
 
 ## Validação HTML e CSS
-Para a validação do HTML e CSS foi utilizado o "The W3C Markup Validation Service",
+Para a validação do HTML e CSS foi utilizado o "The W3C Markup Validation Service", o que permitiu verificar alguns erros e corrigir os mesmos.
 
-o que permitiu verificar alguns erros e corrigir os mesmos.
+![title](imagens/validacao.png)
 
 ## Detalhes de implementação
 
+### Menu
+![title](imagens/menu.png)
+
+### Tabela
+![title](imagens/tabela.png)
+
+### Formulário
+![title](imagens/formulario.png)
+
+### Hyperlink
+![title](imagens/hyperlink.png)
+
+### Imagens
+![title](imagens/imagens.png)
+
+### Marcação
+![title](imagens/Marcacao.png)
+
+### Listas
+![title](imagens/lista1.png)
+
 # 4 - Apresentação
+![title](apresentacao.pdf)
