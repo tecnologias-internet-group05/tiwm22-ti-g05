@@ -170,7 +170,7 @@ Para a validação do HTML e CSS foi utilizado o "The W3C Markup Validation Serv
 ![title](imagens/Marcacao.png)
 
 ### Listas
-![title](imagens/lista1.png)
+![title](imagens/lista.png)
 
 # 4 - Apresentação
 ![PDF APRESENTACAO](apresentacao.pdf)
