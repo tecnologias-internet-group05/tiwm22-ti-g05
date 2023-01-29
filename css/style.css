@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition: 0.5s;
 }
 
 ::selection{
@@ -161,6 +162,11 @@ nav a:hover{
         position: absolute;
         top: 45px;
         right: 20px;
+    }
+    
+    video{
+        height: 100;
+        width: 100;
     }
 }
 
@@ -408,7 +414,7 @@ table {
     background: #fd8505;
     color: #fff;
 }
-@media only screen and (min-width: 320px) and (max-width: 991px) {
+@media only screen and (max-width: 991px) {
     .redes{
         flex-direction: column;
     }
@@ -417,4 +423,18 @@ table {
 .divbutton {
     display: flex;
     justify-content: space-between;
+}
+
+figcaption{
+    text-align: center;
+    font-size: 15px;
+    font-family: monospace;
+    color: #fd8505;
+}
+
+video{
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
 }
