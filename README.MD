@@ -93,6 +93,12 @@ de alguma duvida o utilizador pode enviar uma mensagem através da página conta
 ## Ligação para o site
 https://tiwm22-ti-g05.netlify.app/paginas/
 
+## Tecnologias Utilizadas
+- HTML5
+- CSS3
+- Javascript
+- Jquery
+
 ## Instruções de instalação e configuração
 
 ### Github
