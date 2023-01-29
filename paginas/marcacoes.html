@@ -1,9 +1,5 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
+<html lang="pt">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,9 +12,6 @@
         <script src="https://kit.fontawesome.com/a54d2cbf95.js"></script>
     </head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
         <nav>
             <div class="logo">
                 <a href="/paginas/index.html"><img src="/imagens/zoologo.svg" alt="logo"></a>
@@ -34,15 +27,14 @@
                 <li><a href="/paginas/contactos.html">Contactos</a></li>
             </ul>
         </nav>
-        <marquee bgcolor="yellowgreen" direction="left">NOVIDADE! DESCONTOS ATÉ 20% EM TODOS OS BILHETES!</marquee>
         <a href="#" class="top-arrow">
             <i class="fas fa-chevron-up"></i>
         </a>
         <br>
         <br>
-        <h1 class="align">Bilheteira</h1>     
-        <br> 
         <table class="prices">
+          <thead><h1 class="align">Bilheteira</h1></thead>
+          <tbody>
             <tr>
                 <th> Bilhete </th>
                 <th> <span id="A_Bilhete"></span> </th>
@@ -67,40 +59,45 @@
                 <td> <span id="C_PrecoF"></span><span id="C_UnidadeF"></span> </td>
                 <td> <span id="S_PrecoF"></span><span id="S_UnidadeF"></span> </td>
             </tr>
+          </tbody>
+          <tfoot><p>Desconto até <strong>20%</strong> nos bilhetes</p></tfoot>
         </table>
 
         <br>
         <br>
         <br>
 
-        <h1 class="align">Horário de Funcionamento</h1>
         <br>
         <table class="prices">
-          <tr>
-            <th> Dia da Semana </th>
-            <th> Abre </th>
-            <th> Fecha </th>
-          </tr>
-          <tr>
-            <th> 2ª Feira </th>
-            <td> 10:00h </td>
-            <td> 18:00h </td>
-          </tr>
-          <tr>
-            <th>3ª Feira-6ª Feira</th>
-            <td> 11:00h </td>
-            <td> 19:00h </td>
-          </tr>
-          <tr>
-            <th>Sábado</th>
-            <td> 09:00h </td>
-            <td> 17:00h </td>
-          </tr>
-          <tr>
-            <th> Domingo </th>
-            <td> 08:00h </td>
-            <td> 16:00h </td>
-          </tr>
+          <thead><h1 class="align">Horário de Funcionamento</h1></thead>
+          <tbody>
+            <tr>
+              <th> Dia da Semana </th>
+              <th> Abre </th>
+              <th> Fecha </th>
+            </tr>
+            <tr>
+              <th> 2ª Feira </th>
+              <td> 10:00h </td>
+              <td> 18:00h </td>
+            </tr>
+            <tr>
+              <th>3ª Feira-6ª Feira</th>
+              <td> 11:00h </td>
+              <td> 19:00h </td>
+            </tr>
+            <tr>
+              <th>Sábado</th>
+              <td> 09:00h </td>
+              <td> 17:00h </td>
+            </tr>
+            <tr>
+              <th> Domingo </th>
+              <td> 08:00h </td>
+              <td> 16:00h </td>
+            </tr>
+          </tbody>
+          <tfoot><p>O horário pode mudar em <strong>feriados</strong> e <strong>datas especiais.</strong></p></tfoot>
         </table>
 
         <br>
